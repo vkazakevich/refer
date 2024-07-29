@@ -1,6 +1,7 @@
 require "refer/version"
 require "refer/engine"
 require "securerandom"
+require_relative "../app/models/concerns/refer/has_referrals"
 
 module Refer
   include ActiveSupport::Configurable
